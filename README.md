@@ -1,6 +1,6 @@
 # LAB - 2
 
-## Project Name
+## About Me
 
 I built an app with a direct and powerful purpose. My app does all of the things that it accomplishes well. Here  I describe the purpose and functionality so those that visit my README understand the app.
 

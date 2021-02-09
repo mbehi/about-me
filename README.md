@@ -12,4 +12,8 @@ I built an app with a direct and powerful purpose. My app does all of the things
 
 ### Reflections and Comments
 * Consider including the answers to your daily journal and submission questions here
+<<<<<<< HEAD
 * This is also a good place to reflect on the tools and resources used and learned
+=======
+* This is also a good place to reflect on the tools and resources used and learned
+>>>>>>> ea3cd2ef963630f2e7ba2ac57762e7fd74e85710

@@ -2,18 +2,17 @@
 
 console.log('hello mohsin');
 
-// linter test
-var apple = 42;
-
-if(apple){
-  console.log(apple);
-}
-
-
-console.log(apple);
-
 
 // write 5 questions. They MUST accept yes or no or y or n IN ANY CASE
 // examples: YES, yes, YEs, yeS, yEs, Y, y
 
-var questionOne = prompt('Do I live in Austin?');
+// get user name and offer greeting
+var userName = prompt('Hello, what\'s your name?');
+alert ('Hello ' + userName + ' , nice to meet you!');
+
+var answerOne = prompt('Do I live in Austin?').toLowerCase();
+if(answerOne === 'yes' || answerOne === 'y'){
+  // console.log('you are correct');
+  alert('you are correct');
+}
+var answerTwo = prompt('')

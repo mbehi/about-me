@@ -1,11 +1,56 @@
 body {
-    background-color: blue;
+    background-color:teal;
     width: 960px;
     margin: auto;
-    border: 1px solid yellow;
 }
 
 header {
-    background-color: green;
     color: yellow;
+}
+
+h1 {
+    text-align: center;
+    padding: 15px;
+    font-size: 70px;
+    font-weight: bolder;
+    background-color: green;
+}
+
+main {
+    text-align: center;
+    padding: 10px;
+    margin-top: auto;
+    border-radius: inherit;
+    margin-bottom: auto;
+}
+
+img {
+    border: khaki;
+    border-radius: 10px;
+    margin-top: auto;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    width: auto;
+    float: right;
+}
+
+ul {
+    list-style: outside;
+    margin-top: 5px;
+    list-style-position: inside;
+}
+
+ol {
+    margin-top: auto;
+    list-style: upper-roman;
+}
+
+h2 {
+    font-size: 15px;
+    font-weight: bold;
+}
+
+p {
+    margin: auto;
 }

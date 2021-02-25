@@ -42,19 +42,19 @@ function questionThree(){
 
 // Fourth Question
 function questionFour(){
-  var answerFour = prompt('Have you ever seen a UFO?').toLowerCase();
+  var answerFour = prompt('Do you believe in Santa Claus?').toLowerCase();
   if(answerFour === 'yes' || answerFour === 'y'){
   // console.log('question three worked');
-    alert('You need to visit Roswell, NM!');
+    alert('Maybe, we need to verify your age before proceeding!');
   }
 }
 
 // Fifth Question
 function questionFive(){
-  var answerFive = prompt('Have you ever seen a UFO?').toLowerCase();
+  var answerFive = prompt('Did you see Bigfoot?').toLowerCase();
   if(answerFive === 'yes' || answerFive === 'y'){
   // console.log('question three worked');
-    alert('You need to visit Roswell, NM!');
+    alert('Sweet! I have seen Bigfoot, too!');
   }
 }
 
@@ -110,3 +110,7 @@ questionFour();
 questionFive();
 questionSix();
 questionSeven();
+
+
+// Tracking the Total Number of Correct Answers
+alert(`Thanks for visiting my page, ${userName}! Here is your score: ${score}.`);

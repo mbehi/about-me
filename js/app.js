@@ -19,6 +19,12 @@ function questionOne(){
   if(answerOne === 'yes' || answerOne === 'y'){
   // console.log('you are correct');
     alert('You are correct!');
+    score++;
+  } else if (answerOne === 'no' || answerOne === 'n') {
+    alert('Try again.');
+    score++;
+  } else {
+    alert('Whoa, you are way off.');
   }
 }
 
@@ -28,6 +34,12 @@ function questionTwo(){
   if(answerTwo === 'yes' || answerTwo === 'y'){
   // console.log('question two worked');
     alert('You should join the Ghostbusters!');
+    score++;
+  } else if (answerTwo === 'no' || answerTwo === 'n') {
+    alert('Try again.');
+    score++;
+  } else {
+    alert('Whoa, you are way off.');
   }
 }
 
@@ -37,6 +49,12 @@ function questionThree(){
   if(answerThree === 'yes' || answerThree === 'y'){
   // console.log('question three worked');
     alert('You need to visit Roswell, NM!');
+    score++;
+  } else if (answerThree === 'no' || answerThree === 'n') {
+    alert('Try again.');
+    score++;
+  } else {
+    alert('Whoa, you are way off.');
   }
 }
 
@@ -46,6 +64,12 @@ function questionFour(){
   if(answerFour === 'yes' || answerFour === 'y'){
   // console.log('question three worked');
     alert('Maybe, we need to verify your age before proceeding!');
+    score++;
+  } else if (answerFour === 'no' || answerFour === 'n') {
+    alert('Try again.');
+    score++;
+  } else {
+    alert('Whoa, you are way off.');
   }
 }
 
@@ -55,6 +79,12 @@ function questionFive(){
   if(answerFive === 'yes' || answerFive === 'y'){
   // console.log('question three worked');
     alert('Sweet! I have seen Bigfoot, too!');
+    score++;
+  } else if (answerFive === 'no' || answerFive === 'n') {
+    alert('Try again.');
+    score++;
+  } else {
+    alert('Whoa, you are way off.');
   }
 }
 
@@ -63,7 +93,7 @@ function questionSix(){
   var maxCount = 6;
   var correctNumber = 29;
   for (var i = 0; i < maxCount; i++) {
-    var answerSix = parseInt(prompt('What is my favorite number?'))
+    var answerSix = parseInt(prompt('What is my favorite number?'));
     if(answerSix === correctNumber) {
       alert('Yes, you are correct!!!');
       score++;
@@ -88,7 +118,7 @@ function questionSeven(){
     var favoriteCitiesGuess = prompt('What is my favorite city to visit?');
     for (var k = 0; k < myFavoriteCities.length; k++) {
       if (favoriteCitiesGuess === myFavoriteCities[k]) {
-        console.log('question seven is correct');
+        // console.log('question seven is correct');
         alert('Yes, you are correct!');
         correctAnswer = true;
         score++;
